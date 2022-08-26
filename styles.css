@@ -379,8 +379,10 @@ input[type=submit]:hover {
     padding-top: 20px; */
     display: none;
   }
+
  
 }
+
 #footer li{
   display:flex ;
   flex-direction: row;
@@ -425,4 +427,28 @@ input[type=submit]:hover {
     display: inline-flex;
   } 
 }
+@media screen and (min-width: 1400px) {
+  
+  #flight .mobile{
+    display: none;
+  }
+  
+  #piano .mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  
+  #flight .laptop{
+    display: none;
+  }
+  
+  #piano .laptop{
+    display: none;
+  }
+
+}
+
+
 
