@@ -332,21 +332,19 @@ input[type=submit]:hover {
   }
    #player_register_application_be {
     background-image: url("images/spring.png");
-    background-size: 233px;
+    background-size: 100px;
     background-position: center;
       background-position: bottom;
-      padding-top: 90px;
-
+      /* padding-top: 90px; */
   
     background-repeat: no-repeat; 
-  
-  }
+   }
   
   #player_register_application_fe {
     background-image: url("images/angular-removebg-preview.png");
     background-size: cover;
-    background-size: 200px;
-    padding-top: 90px;
+    background-size: 100px;
+    /* padding-top: 90px; */
 
     background-position: top;
     background-position: bottom ;
